@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Bachillerato Tecnológico Agropecuario No. 3</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/LogoCBT.png" alt="Logo CBTA 3">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="institucionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Institución
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="institucionDropdown">
+                        <a class="dropdown-item" href="#">Historia</a>
+                        <a class="dropdown-item" href="#">Misión</a>
+                        <a class="dropdown-item" href="#">Visión</a>
+                        <a class="dropdown-item" href="#">Valores</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aspirantesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Aspirantes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="aspirantesDropdown">
+                        <a class="dropdown-item" href="#">Requisitos</a>
+                        <a class="dropdown-item" href="#">Proceso de Admisión</a>
+                        <a class="dropdown-item" href="#">Becas</a>
+                        <a class="dropdown-item" href="#">Contacto</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="alumnosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Alumnos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="alumnosDropdown">
+                        <a class="dropdown-item" href="#">Calendario Escolar</a>
+                        <a class="dropdown-item" href="#">Servicios Escolares</a>
+                        <a class="dropdown-item" href="#">Actividades Extracurriculares</a>
+                        <a class="dropdown-item" href="#">Contacto</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="docentesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Docentes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="docentesDropdown">
+                        <a class="dropdown-item" href="#">Plataforma Educativa</a>
+                        <a class="dropdown-item" href="#">Capacitación</a>
+                        <a class="dropdown-item" href="#">Recursos</a>
+                        <a class="dropdown-item" href="#">Contacto</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="padresDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Padres de Familia
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="padresDropdown">
+                        <a class="dropdown-item" href="#">Reuniones</a>
+                        <a class="dropdown-item" href="#">Informes</a>
+                        <a class="dropdown-item" href="#">Consejos</a>
+                        <a class="dropdown-item" href="#">Contacto</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('images/cbta1.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">CENTRO DE BACHILLERATO TECNOLÓGICO AGROPECUARIO</h1>
+                    <p class="lead">¡Juntos #SomosUnaEscuelaDiferente!</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/cbta2.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">FORMANDO FUTUROS PROFESIONALES</h1>
+                    <p class="lead">Con educación de calidad y valores.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/cbta3.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">EXCELENCIA ACADÉMICA</h1>
+                    <p class="lead">Comprometidos con el desarrollo integral de nuestros alumnos.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/cbta4.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">TÍTULO DE LA IMAGEN 4</h1>
+                    <p class="lead">Descripción de la imagen 4.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/cbta5.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">TÍTULO DE LA IMAGEN 5</h1>
+                    <p class="lead">Descripción de la imagen 5.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/cbta6.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">TÍTULO DE LA IMAGEN 6</h1>
+                    <p class="lead">Descripción de la imagen 6.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/cbta7.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">TÍTULO DE LA IMAGEN 7</h1>
+                    <p class="lead">Descripción de la imagen 7.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Oferta Educativa -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2>OFERTA EDUCATIVA</h2>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/agropecuario.jpg" class="card-img-top" alt="Técnico en Agropecuario">
+                                <div class="card-body">
+                                    <h5 class="card-title">TÉCNICO EN AGROPECUARIO</h5>
+                                    <p class="card-text">Formar técnicos con capacidad para gestionar, implementar y evaluar sistemas de producción agrícola y pecuaria.</p>
+                                    <a href="#" class="btn btn-primary">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/EXPGAN.jpg" class="card-img-top" alt="Técnico en Explotación Ganadera">
+                                <div class="card-body">
+                                    <h5 class="card-title">TÉCNICO EN EXPLOTACIÓN GANADERA</h5>
+                                    <p class="card-text">Permite al estudiante manejar al ganado, alimentarlo, aplicar programas preventivos, de sanidad y reproductivos.</p>
+                                    <a href="#" class="btn btn-primary">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/desarrollo_comunitario.jpg" class="card-img-top" alt="Técnico en Desarrollo Comunitario">
+                                <div class="card-body">
+                                    <h5 class="card-title">TÉCNICO EN DESARROLLO COMUNITARIO</h5>
+                                    <p class="card-text">Capacita para diseñar y ejecutar proyectos que promuevan el desarrollo sostenible de comunidades rurales y urbanas.</p>
+                                    <a href="#" class="btn btn-primary">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/OFIM1.jpg" class="card-img-top" alt="Técnico en Programación">
+                                <div class="card-body">
+                                    <h5 class="card-title">TÉCNICO EN PROGRAMACIÓN</h5>
+                                    <p class="card-text">Ofrece competencias para desarrollar, implementar y mantener sistemas de software eficientes y efectivos.</p>
+                                    <a href="#" class="btn btn-primary">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/PIA.jpg" class="card-img-top" alt="Técnico en Producción Industrial de Alimentos">
+                                <div class="card-body">
+                                    <h5 class="card-title">TÉCNICO EN PRODUCCIÓN INDUSTRIAL DE ALIMENTOS</h5>
+                                    <p class="card-text">Permite al estudiante conservar y procesar materias primas de origen primario en productos y subproductos.</p>
+                                    <a href="#" class="btn btn-primary">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev custom-carousel-control" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon custom-carousel-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next custom-carousel-control" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon custom-carousel-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Imágenes -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>GALERÍA DE IMÁGENES</h2>
+                </div>
+            </div>
+            <div class="row gallery">
+                <div class="col-md-3">
+                    <img src="images/Foto2.jpeg" class="img-fluid" alt="Imagen 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto17.jpg" class="img-fluid" alt="Imagen 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto3.jpeg" class="img-fluid" alt="Imagen 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto4.jpg" class="img-fluid" alt="Imagen 4">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto5.jpg" class="img-fluid" alt="Imagen 5">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto6.jpg" class="img-fluid" alt="Imagen 6">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto7.jpg" class="img-fluid" alt="Imagen 7">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto8.jpg" class="img-fluid" alt="Imagen 8">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto9.jpg" class="img-fluid" alt="Imagen 9">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto10.jpg" class="img-fluid" alt="Imagen 10">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto11.jpg" class="img-fluid" alt="Imagen 11">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto16.jpg" class="img-fluid" alt="Imagen 12">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto12.jpg" class="img-fluid" alt="Imagen 13">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto13.jpg" class="img-fluid" alt="Imagen 14">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto14.jpg" class="img-fluid" alt="Imagen 15">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/Foto15.jpg" class="img-fluid" alt="Imagen 16">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Por Qué Elegirnos? -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2>CBTA NO. 3</h2>
+                <h3>¿POR QUÉ ELEGIRNOS?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Misión</h4>
+                <p>Ofrecer una educación integral de calidad con carácter incluyente, para formar bachilleres competentes, mediante la promoción de prácticas productivas, vinculación social y servicios comunitarios, con el fin de contribuir al desarrollo sustentable.</p>
+                <h4>Visión</h4>
+                <p>Ser una institución de nivel medio superior en Educación Agropecuaria, líder en excelencia académica, calidad en el servicio, innovación tecnológica e investigación; promoviendo una visión emprendedora en los estudiantes que les permita enfrentar los retos del siglo XXI.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/expo5.jpg" class="img-fluid" alt="Por Qué Elegirnos">
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Nuestras Modalidades -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2>CBTA NO. 3</h2>
+                <h3>NUESTRAS MODALIDADES</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Sistema Escolarizado</h4>
+                <p>Esta es la opción de bachillerato de modalidad bivalente, es decir, que puedes estudiar el bachillerato al mismo tiempo que una carrera técnica. Las materias iniciales que cursarás aquí son prácticamente las mismas que en el bachillerato general, por lo tanto, te preparan para estudiar una carrera profesional a nivel universitario; el resto de las materias son tecnológicas, las cuales te prepararán como técnico(a) de nivel medio superior y se cursan junto con las iniciales.</p>
+                <h4>Sistema Auto-planeado</h4>
+                <p>El Sistema Auto-planeado de Educación Tecnológica Agropecuaria (SAETA) está dirigido a personas con estudios terminados de nivel secundaria y que por diversas circunstancias no pueden cursar el bachillerato escolarizado y, además, necesitan combinar sus estudios con el trabajo.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/expo4.jpg" class="img-fluid" alt="Nuestras Modalidades">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ¿Por Qué Elegirnos? -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2>CBTA NO. 3</h2>
+                <h3>¿POR QUÉ ELEGIRNOS?</h3>
+            </div>
+        </div>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <div class="icon">
+                        <img src="images/contacto.png" alt="Contacto con Padres de Familia" class="img-fluid">
+                    </div>
+                    <h4>CONTACTO CON PADRES DE FAMILIA</h4>
+                    <p>El grupo de asistencia educativa, dentro de sus funciones mantiene una estrecha relación con los padres de familia de nuestros alumnos.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <div class="icon">
+                        <img src="images/docentes.png" alt="Docentes Capacitados" class="img-fluid">
+                    </div>
+                    <h4>DOCENTES CAPACITADOS</h4>
+                    <p>Nuestros docentes se encuentran preparados y capacitados en sus áreas al ser profesores idóneos según los estándares definidos por el INEE.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <div class="icon">
+                        <img src="images/45años.png" alt="Más de 45 Años" class="img-fluid">
+                    </div>
+                    <h4>MÁS DE 45 AÑOS</h4>
+                    <p>El plantel cuenta con más de 45 años de creación, además de ser uno de los más grandes del estado en nuestro subsistema.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <div class="icon">
+                        <img src="images/calidad.png" alt="Calidad" class="img-fluid">
+                    </div>
+                    <h4>CALIDAD</h4>
+                    <p>Comprometidos con la calidad de la educación de nuestros estudiantes, por ello pertenecemos al Nivel II del Padrón de Buena Calidad del Sistema Nacional de Bachillerato.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h3 class="text-center">Ubicación</h3>
+                <!-- Mapa de Google -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.463715965835!2d-104.64379652487389!3d23.979396879946925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb86b58b9f217%3A0x3bdca5bcc50ba305!2sDe%20Las%20Flores%20900%2C%20Las%20Flores%2C%2034160%20Durango%2C%20Dgo.!5e0!3m2!1ses-419!2smx!4v1717283183066!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h3 class="text-center">Síguenos en Redes Sociales</h3>
+                <div class="text-center mb-3">
+                    <a href="https://www.facebook.com/tu_pagina_de_facebook" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                </div>
+                <div class="text-center mb-3">
+                    <a href="https://www.instagram.com/tu_pagina_de_instagram" target="_blank" class="btn btn-danger">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+                <!-- Información adicional de contacto -->
+                <div class="mt-4">
+                    <h5>Dirección</h5>
+                    <p>De Las Flores 900, Las Flores, 34160 Durango, Dgo.</p>
+                    <h5>Teléfono</h5>
+                    <p>+52 123 456 7890</p>
+                    <h5>Email</h5>
+                    <p>info@cbta3.edu.mx</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p>&copy; 2024 Centro de Bachillerato Tecnológico Agropecuario No. 3. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
